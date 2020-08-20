@@ -1,6 +1,6 @@
 import React from "react";
 
-const ClassInput = () => {
+const AddClass = () => {
 
     return (
         <form name="class_input">
@@ -10,4 +10,4 @@ const ClassInput = () => {
     );
 }
 
-export default ClassInput;
+export default AddClass;

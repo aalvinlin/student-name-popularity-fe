@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Home from "./components/Home";
 import EditWorksheet from "./components/EditWorksheet";
-import AddNames from "./components/AddNames";
+import AddClass from "./components/AddClass";
 
 const App = () => {
 
@@ -14,8 +14,8 @@ const App = () => {
         <EditWorksheet />
       </Route>
 
-      <Route path="/add_names">
-        <AddNames />
+      <Route path="/add_class">
+        <AddClass />
       </Route>
 
       <Route path="/">

@@ -6,7 +6,7 @@ const Menu = () => {
         <header>
             <a href="/">Home</a>
             <a href="/edit_worksheet">Edit Worksheet</a>
-            <a href="/add_names">Add Names</a>
+            <a href="/add_class">Add Class</a>
         </header>
     );
 }
