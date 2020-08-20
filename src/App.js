@@ -1,13 +1,28 @@
 import React from "react";
-import { render } from "react-dom";
+import { Route, Switch } from "react-router-dom";
+
+import Home from "./components/Home";
+import EditWorksheet from "./components/EditWorksheet";
+import AddNames from "./components/AddNames";
 
 const App = () => {
 
-  render(
+  return (
   <>
-    <h1>How Popular Is Your Name?</h1>
-    <p>I'm a teacher.</p>
-    <p>I'm a student.</p>
+    <Switch>
+      <Route path="/edit_worksheet">
+        <EditWorksheet />
+      </Route>
+
+      <Route path="/add_names">
+        <AddNames />
+      </Route>
+
+      <Route path="/">
+        <Home />
+      </Route>
+      
+    </Switch>
   </>
   )
 };

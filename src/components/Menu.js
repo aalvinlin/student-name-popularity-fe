@@ -4,8 +4,9 @@ const Menu = () => {
 
     return (
         <header>
-            <a href="#">Home</a>
-            <a href="#">Generate Worksheets</a>
+            <a href="/">Home</a>
+            <a href="/edit_worksheet">Edit Worksheet</a>
+            <a href="/add_names">Add Names</a>
         </header>
     );
 }
