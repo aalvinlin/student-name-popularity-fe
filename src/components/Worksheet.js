@@ -2,6 +2,14 @@ import React from "react";
 
 const Worksheet = ({name, class, alternateName, alternateNameRelationship}) => {
 
+    const ages_data = {
+        min: 0,
+        Q1: 0,
+        median: 0,
+        Q3: 0,
+        max: 0,
+    }
+
     return (
         <>
             <section className="worksheet_header">
@@ -24,9 +32,17 @@ const Worksheet = ({name, class, alternateName, alternateNameRelationship}) => {
             <section className="fiveNumberSummary">
                 
                 <p>
-                    If all the people named {alternateName ? alternateName : name} who were born between 1920 and 2018 are still alive right now...
+                    If all the people named {alternateName ? alternateName : name} who were born between 1920 and 2018 were still alive right now...
                 </p>
-                
+
+                <ul>
+                    <li>The youngest {name} would be {ages_data['min']} years old.</li>
+                    <li>The oldest {name}  would be {ages_data['max']} years old.</li>
+                    <li>The median age would be {ages_data['median']}.</li>
+                    <li>The age for the first quartile would be {ages_data['Q1']}.</li>
+                    <li>The age for the third quartile would be {ages_data['Q3']}.</li>
+                </ul>
+
             </section>
 
             <section className="histogram">
