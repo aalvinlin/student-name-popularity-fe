@@ -43,6 +43,12 @@ const Worksheet = ({name, class, alternateName, alternateNameRelationship}) => {
                     <li>The age for the third quartile would be {ages_data['Q3']}.</li>
                 </ul>
 
+                <ul>
+                    <li>What percent of all people named {name} are between {ages_data['median']} and {ages_data['max']} years old?</li>
+                    <li>The youngest 25 percent of people with the name have ages between __________ and __________ .</li>
+                    <li>What percent of all people with the name {name} are between {ages_data['min']} and {ages_data['Q3']} years old? </li>
+                </ul>
+
             </section>
 
             <section className="histogram">
