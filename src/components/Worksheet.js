@@ -56,7 +56,13 @@ const Worksheet = ({name, class, alternateName, alternateNameRelationship}) => {
             </section>
 
             <section className="questions">
-                
+
+                <ul>
+                    <li>Is your name becoming more popular or less popular?</li>
+                    <li>What do you think causes names to be more popular?</li>
+                    <li>What did you find surprising or interesting about the number of people with your name?</li>
+                </ul>
+
             </section>
 
         </>
