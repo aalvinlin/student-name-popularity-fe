@@ -53,6 +53,14 @@ const Worksheet = ({name, class, alternateName, alternateNameRelationship}) => {
 
             <section className="histogram">
                 
+                <p>Create a histogram using the frequency table.</p>
+
+                <ul>
+                    <li>The largest number of people in the frequency table is _______________.</li>
+                    <li>The graph is 10 squares high, so I will make each step represent _______________ people.</li>
+                    <li>Label both axes and complete the histogram.</li>
+                </ul>
+
             </section>
 
             <section className="questions">
