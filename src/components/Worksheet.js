@@ -1,6 +1,6 @@
 import React from "react";
 
-const Worksheet = ({name, class, alternateName, alternateNameRelationship}) => {
+const Worksheet = ({name, classText, alternateName, alternateNameRelationship}) => {
 
     const ages_data = {
         min: 0,
@@ -14,7 +14,7 @@ const Worksheet = ({name, class, alternateName, alternateNameRelationship}) => {
         <>
             <section className="worksheet_header">
                 <h2 className="studentName">{name}</h2>
-                <h2 className="studentClass">{class}</h2>
+                <h2 className="studentClass">{classText}</h2>
             </section>
 
             <section className="intro">
