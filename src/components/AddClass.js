@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import Worksheet from "./Worksheet";
 
 const AddClass = () => {
+
+    let readyToGenerateWorksheet = false;
+
+    if (readyToGenerateWorksheet)
+        {
+            return (
+                <Worksheet />
+            )
+        }
 
     return (
         
