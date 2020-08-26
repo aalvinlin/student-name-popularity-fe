@@ -4,9 +4,8 @@ const Home = () => {
 
     return (
         <>
-            <h1>How Popular Is Your Name?</h1>
-                <p>I'm a teacher.</p>
-                <p>I'm a student.</p>
+            <h1>Student Name Popularity Worksheet Generator</h1>
+                        
         </>
     );
 }
