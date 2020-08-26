@@ -18,8 +18,9 @@ const Home = () => {
                     The problems involve making a box-and-whisker plot and a histogram, so this activity would be a perfect end-of-unit review activity.
                  </p>
                     
+                 <p>
                     For your convenience, this application will generate an entire class set of worksheets at once (after you've typed or pasted in a list of all the students).
-                </p>
+                 </p>
             
             </div>            
         </>
