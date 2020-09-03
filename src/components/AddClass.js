@@ -5,10 +5,12 @@ const AddClass = () => {
 
     let readyToGenerateWorksheet = false;
 
+    let names = useState([]);
+
     if (readyToGenerateWorksheet)
         {
             return (
-                <Worksheet />
+                { names.map(name => <Worksheet name={name} />) }
             )
         }
 
